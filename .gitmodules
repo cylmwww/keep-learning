@@ -1,0 +1,3 @@
+[submodule "kotaemon"]
+	path = kotaemon
+	url = https://github.com/Cinnamon/kotaemon.git

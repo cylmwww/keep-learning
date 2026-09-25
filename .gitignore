@@ -1,0 +1,44 @@
+ktem_app_data/
+kotaemon/ktem_app_data/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.venv/
+kotaemon/.venv/
+**/node_modules/
+.env
+kotaemon/.env
+.tmp/
+.uv-cache/
+*.log
+.runtime_*.log
+page_check.html
+*_check.html
+build/
+dist/
+.runtime/
+nul
+
+# Local configuration and secrets; review templates before publishing
+.env.*
+*.env
+*.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases, backups and runtime state
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.bak
+.theflow/
+
+# Personal exports and local acceptance evidence
+/docs/learning_routes/
+/docs/frontend-v1-evidence/
